@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Reno's Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="about-page">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">
+          <img src="images/Reno.png" alt="Reno's Logo" class="logo-img" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="image-gallery">
+      <div class="container-fluid">
+        <div class="image-row">
+          <img
+            src="images/About/abstract_blue.jpg"
+            alt="Blue abstract painting"
+            class="img-fluid"
+          />
+          <img
+            src="images/About/abstract_mural.jpg"
+            alt="Colorful abstract mural"
+            class="img-fluid"
+          />
+          <img
+            src="images/About/abstract_cross.jpg"
+            alt="Abstract cross pattern"
+            class="img-fluid"
+          />
+          <img
+            src="images/About/abstract_wall.jpg"
+            alt="Textured abstract wall painting"
+            class="img-fluid"
+          />
+          <img
+            src="images/About/squares.jpg"
+            alt="Geometric square pattern"
+            class="img-fluid"
+          />
+          <img
+            src="images/About/streak.jpg"
+            alt="Paint streaks on canvas"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="py-1 bg-dark"></section>
+    <section class="about-intro py-3">
+      <div class="container text-center">
+        <h2>About Me</h2>
+        <p>
+          While I am a Computer Science student, I have a bunch of other
+          interests on top of tech and programming. In the image carousel, there
+          are pictures of some of my favorite activities with caption
+          descriptions. There are also lists below that include my hobbies and
+          favorite movies, books, and TV shows.
+        </p>
+      </div>
+    </section>
+    <section class="hobbies-carousel py-2">
+      <div class="container text-center">
+        <h2>My Interests & Hobbies</h2>
+        <div
+          id="hobbiesCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/About/bouldering.jpg"
+                class="d-block w-100 rounded"
+                alt="Bouldering in action"
+              />
+              <div class="carousel-caption d-block">
+                <h3>Bouldering</h3>
+                <p>
+                  Indoor rock climbing is a fun way to learn problem-solving and
+                  to get in a good workout!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/About/computers.jpg"
+                class="d-block w-100 rounded"
+                alt="A collection of computer hardware"
+              />
+              <div class="carousel-caption d-block">
+                <h3>Programming & Tech</h3>
+                <p>
+                  Doing some programming for apps or websites, and just working
+                  with random tech stuff.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/About/art.jpeg"
+                class="d-block w-100 rounded"
+                alt="Digital and traditional artwork"
+              />
+              <div class="carousel-caption d-block">
+                <h3>Traditional & Digital Art</h3>
+                <p>
+                  Both traditional and digital mediums, as well as graphic and
+                  web design.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#hobbiesCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#hobbiesCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="favorites-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Favorite Movies:</h3>
+            <ul>
+              <li>Spirited Away</li>
+              <li>The Equalizer</li>
+              <li>Deadpool</li>
+              <li>Dune</li>
+              <li>Spider-Man</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Favorite Books:</h3>
+            <ul>
+              <li>Red Rising by Pierce Brown</li>
+              <li>Data Structures and Algorithms in Java</li>
+              <li>Scythe by Neal Shusterman</li>
+              <li>Where the Crawdads Sing by Delia Owens</li>
+              <li>The Atlas Six by Olivie Blake</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Favorite TV Shows:</h3>
+            <ul>
+              <li>Ozark</li>
+              <li>Severance</li>
+              <li>The Boys</li>
+              <li>Invincible</li>
+              <li>The 100</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Hobbies:</h3>
+            <ol>
+              <li>Art</li>
+              <li>Badminton</li>
+              <li>Volleyball</li>
+              <li>Reading</li>
+              <li>Playing Ukulele</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg-dark text-light text-center py-3">
+      <p>&copy; 2025 Reno Ogden. All Rights Reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
